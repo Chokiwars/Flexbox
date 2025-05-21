@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: blueviolet;
+ }
+
+.container{
+    border: solid 5px rgb(102, 0, 185);
+    border-radius: 25px;
+    background-color: rgb(245, 233, 255);
+    height: 80vh;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-evenly; alinhamento no eixo principal */
+    /* align-items: baseline; alinhamento no eixo secundario */
+    /* align-items: stretch; alinhamento no eixo secundario */
+    /* PARA O "STRETCH" FUNCIONAR, AS CAIXAS PRECISAM TER UM TAMANHO FIXO */
+    /* flex-wrap: wrap; ajusta os elementos em mais linhas */
+    flex-flow: row wrap; /*une as propriedades flex-direction e flow*/
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+#box1{background-color: rgb(224, 177, 255);}
+#box2{background-color: rgb(249, 179, 255);}
+#box3{background-color: rgb(173, 192, 255);}
