@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    background-color: bisque;
+    padding: 16px;
+    height: 500px;
+    /* width: 400px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+}
+
+
+.box {
+    height: 150px;
+    border-radius: 8px;
+}
+
+#box1 {
+    background-color: rgb(213, 106, 255);
+    /* flex-basis: 250px;  Largura do elemento
+     flex-grow: 1; 
+    flex-shrink: 5; */
+    flex: 0 0 auto; /* 1- flex-grow 2- flex-shrink 3- flex-basis */
+}
+
+#box2 {
+    background-color: rgb(193, 37, 255);
+    flex-basis: 250px;
+}
+
+#box3 {
+    background-color: rgb(183, 0, 255);
+    flex-basis: 250px;
+}
